@@ -1,0 +1,33 @@
+/*---------------------------------------------fonts-----------------------------------------------*/
+@font-face {
+    font-family: "BHoma";
+    src: url("../../dist/fonts/text/BHoma.eot"), url('../../dist/fonts/text/BHoma.ttf'), url('../../dist/fonts/text/BHoma.woff');
+}
+@font-face {
+    font-family: "BEsfehanBold";
+    src: url('../../dist/fonts/text/BEsfehanBold.eot'), url('../../dist/fonts/text/BEsfehanBold.ttf'), url('../../dist/fonts/text/BEsfehanBold.woff');
+}
+@font-face {
+    font-family: "BNazanin";
+    src: url('../../dist/fonts/text/BNazanin.eot'), url('../../dist/fonts/text/BNazanin.ttf'), url('../../dist/fonts/text/BNazanin.woff');
+}
+@font-face {
+    font-family: "BYekan";
+    src: url('../../dist/fonts/text/BYekan.eot'), url('../../dist/fonts/text/BYekan.ttf'), url('../../dist/fonts/text/BYekan.woff');
+}
+@font-face {
+    font-family: "BSamim";
+    src: url('../../dist/fonts/text/Samim-FD.eot'), url('../../dist/fonts/text/Samim-FD.ttf'), url('../../dist/fonts/text/Samim-FD.woff');
+}
+/*--------------------------------------------end fonts--------------------------------------*/
+body{
+    font-family: BYekan,sans-serif;
+}
+.actional span, .actional a{
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+.actional .togglebutton label .toggle:after{
+    top: -7px!important;
+}

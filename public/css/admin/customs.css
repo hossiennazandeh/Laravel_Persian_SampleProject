@@ -1,0 +1,133 @@
+/*---------------------------------------------fonts-----------------------------------------------*/
+@font-face {
+    font-family: "BHoma";
+    src: url("../../dist/fonts/text/BHoma.eot"), url('../../dist/fonts/text/BHoma.ttf'), url('../../dist/fonts/text/BHoma.woff');
+}
+@font-face {
+    font-family: "BEsfehanBold";
+    src: url('../../dist/fonts/text/BEsfehanBold.eot'), url('../../dist/fonts/text/BEsfehanBold.ttf'), url('../../dist/fonts/text/BEsfehanBold.woff');
+}
+@font-face {
+    font-family: "BNazanin";
+    src: url('../../dist/fonts/text/BNazanin.eot'), url('../../dist/fonts/text/BNazanin.ttf'), url('../../dist/fonts/text/BNazanin.woff');
+}
+@font-face {
+    font-family: "BYekan";
+    src: url('../../dist/fonts/text/BYekan.eot'), url('../../dist/fonts/text/BYekan.ttf'), url('../../dist/fonts/text/BYekan.woff');
+}
+@font-face {
+    font-family: "BSamim";
+    src: url('../../dist/fonts/text/Samim-FD.eot'), url('../../dist/fonts/text/Samim-FD.ttf'), url('../../dist/fonts/text/Samim-FD.woff');
+}
+/*--------------------------------------------end fonts--------------------------------------*/
+body{
+    direction: rtl;
+    font-family: BYekan,sans-serif;
+}
+
+.actional span, .actional a{
+    font-size: 25px;
+    color: #000;
+    cursor: pointer;
+}
+.actional .togglebutton label .toggle:after{
+    top: -7px!important;
+}
+
+.portfolio-item {
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 260px;
+    width: 100%;
+    display: table;
+    cursor: pointer;
+    border: 5px groove #A23CB6;
+    margin-bottom: 15px;
+}
+
+.portfolio-item .details {
+    height: 260px;
+    background: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    opacity: 0;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.portfolio-item .details h4 {
+    font-size: 16px;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+    font-weight: 700;
+    color: #333333;
+}
+
+.portfolio-item:hover .details {
+    opacity: 0.8;
+}
+
+.portfolio-item:hover .details h4 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.portfolio-item:hover .details span {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.not-found h1 {
+    font-family: BHoma, sans-serif;
+    margin: 0 10px;
+    font-size: 50px;
+    text-align: center;
+}
+.not-found h1.not {
+    font-family: BYekan, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+.not-foundh1 span {
+    color: #bbb;
+}
+.not-foundh3 {
+    margin: 1.5em 0 0.5em;
+}
+.not-found p {
+    font-family: BSamim, sans-serif;
+    margin: 1em 0;
+}
+.not-found ul {
+    font-family: BSamim, sans-serif;
+    padding: 0 40px 0 0;
+    margin: 1em 0;
+}
+.not-found .card-content {
+    margin: 0 auto;
+    padding: 20px;
+}
+.not-found .card {
+    padding: 0 50px;
+}
+.btn-disable
+{
+    cursor: not-allowed;
+    pointer-events: none;
+
+    /*Button disabled - CSS color class*/
+    color: #c0c0c0;
+    background-color: #ffffff;
+
+}
+
+.SlectBox{
+    width: 100%;
+    height: 32px;
+    margin-bottom: 5px;
+}
